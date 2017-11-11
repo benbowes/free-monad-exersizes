@@ -1,6 +1,6 @@
 # medhi-api-test
 
-<https://git.realestate.com.au/mehdi-mollaverdi/free-monad-exercises>
+This is an exercize from <https://git.realestate.com.au/mehdi-mollaverdi/free-monad-exercises>
 
 ## Getting started
 
@@ -14,4 +14,4 @@
 
 `yarn start:debug` - to run the server with the `--inspect` flag for running the server. So you can debug the server code in Chrome.
 
-Then visit <http://localhost:3005/listings/old-school/112>
+View in a browser at <http://localhost:3005/listings/old-school/112>

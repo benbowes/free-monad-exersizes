@@ -1,7 +1,7 @@
 {
   "name": "mehdi-api-test",
   "version": "1.0.0",
-  "description": "",
+  "description": "Mehdi's free monad exercises",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",

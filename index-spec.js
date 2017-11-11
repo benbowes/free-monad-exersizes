@@ -64,7 +64,7 @@ const agencyResponse = {
   },
 };
 
-describe('Expected text responses for /listings/old-school/', () => {
+describe('Expected responses for /listings/old-school/', () => {
   it('Expected text is returned when Blapi returns 200 and AgencyAPI returns 200', (done) => {
     nock('https://blapi.buy-listings-pipeline.resi-property.realestate.com.au')
       .get('/services/listings/112')
