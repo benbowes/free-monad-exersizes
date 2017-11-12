@@ -1,6 +1,6 @@
 # medhi-api-test
 
-This is an exercize from <https://git.realestate.com.au/mehdi-mollaverdi/free-monad-exercises>
+This is an exercise from <https://git.realestate.com.au/mehdi-mollaverdi/free-monad-exercises>
 
 ## Getting started
 
