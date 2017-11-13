@@ -17,7 +17,7 @@
     "eslint-config-airbnb-base": "^12.1.0",
     "eslint-plugin-import": "^2.8.0",
     "express": "^4.16.2",
-    "lodash.get": "^4.4.2",
+    "get-or-else": "^2.0.1",
     "mocha": "^4.0.1",
     "nock": "^9.1.0",
     "request": "^2.83.0",

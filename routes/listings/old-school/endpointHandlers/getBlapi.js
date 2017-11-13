@@ -1,13 +1,13 @@
 const request = require('request-promise');
-const get = require('lodash.get');
+const getOrElse = require('get-or-else');
 
 const BLAPI_URL = 'https://blapi.buy-listings-pipeline.resi-property.realestate.com.au/services/listings';
 
 const getAddress = (result) => {
-  const street = get(result, 'address.display.shortAddress', '');
-  const suburb = get(result, 'address.suburb', '');
-  const state = get(result, 'address.state', '');
-  const postcode = get(result, 'address.postcode', '');
+  const street = getOrElse([result, 'address.display.shortAddress'], '');
+  const suburb = getOrElse([result, 'address.suburb'], '');
+  const state = getOrElse([result, 'address.state'], '');
+  const postcode = getOrElse([result, 'address.postcode'], '');
   const addressStr = `${street} ${suburb} ${state} ${postcode}`.trim().replace(/\s+/g, ' ');
 
   return addressStr.length
@@ -27,7 +27,7 @@ module.exports = async (id) => {
 
   return {
     statusCode: error ? (error.statusCode || 500) : 200,
-    id: get(result, 'agency.id', null),
+    id: getOrElse([result, 'agency.id'], null),
     address: getAddress(result),
   };
 };
