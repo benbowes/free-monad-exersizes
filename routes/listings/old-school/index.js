@@ -12,7 +12,7 @@ module.exports = router.get('/listings/old-school/:id', async (req, res) => {
   const blapiRes = await getBlapi(req.params.id);
   const agencyRes = await getAgency(blapiRes.id);
 
-  if (blapiRes.statusCode > 200) {
+  if (blapiRes.statusCode >= 400) {
     return res.status(blapiRes.statusCode).send();
   }
 
