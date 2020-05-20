@@ -1,8 +1,6 @@
-# medhi-api-test
+# free-monad-exercises
 
 This is an exercise from <https://git.realestate.com.au/mehdi-mollaverdi/free-monad-exercises>
-
-## free-monad-exercises
 
 ### Exercise 1
 
@@ -21,12 +19,6 @@ Can be done in either
 Scala: Use the netty-api-stencil as the starting point
 NodeJS: Use your favourite NodeJS web framewrok
 Don't use free monads for the first exercise. Don't forget to write tests.
-
-### Exercise 2
-
-Add a /listings/free/{listingId} endpoint which does the same, but uses Free Monad and the interpreter pattern.
-
-If you're doing it in Scala, use the cats reference documentation for free monads. If you're doing it in NodeJS, see my previous attempt at using free monads in JavaScript here.
 
 ## Getting started
 
