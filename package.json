@@ -11,16 +11,13 @@
   "author": "ben.bowes@rea-group.com",
   "license": "MIT",
   "dependencies": {
-    "chai": "^4.1.2",
-    "chai-http": "^3.0.0",
-    "eslint": "^4.10.0",
-    "eslint-config-airbnb-base": "^12.1.0",
-    "eslint-plugin-import": "^2.8.0",
-    "express": "^4.16.2",
+    "chai": "^4.2.0",
+    "chai-http": "^4.3.0",
+    "express": "^4.17.1",
     "get-or-else": "^2.0.1",
-    "mocha": "^4.0.1",
-    "nock": "^9.1.0",
-    "request": "^2.83.0",
-    "request-promise": "^4.2.2"
+    "mocha": "^7.1.2",
+    "nock": "^9.6.1",
+    "request": "^2.88.2",
+    "request-promise": "^4.2.5"
   }
 }
